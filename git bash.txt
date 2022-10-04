@@ -1,0 +1,179 @@
+DELL@DESKTOP-NP5C70D MINGW64 ~
+$ git clone ^[[200~https://github.com/atishayjain2003/ATISHAY-21153089.git~
+Cloning into 'ATISHAY-21153089.git~'...
+fatal: protocol '?[200~https' is not supported
+
+DELL@DESKTOP-NP5C70D MINGW64 ~
+$ git clone ^[[200~
+fatal: repository '?[200~' does not exist
+
+DELL@DESKTOP-NP5C70D MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+DELL@DESKTOP-NP5C70D MINGW64 ~
+$ cd desktop
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ ls
+ AKGEC/             Dev-C++.lnk*    'Mini voting system.pptx'   Telegram.lnk*         project/
+'BDCOE TRAINING'/  'GDSC PI'/        PERSONAL/                  desktop.ini
+ DSA/              'Git Bash.lnk'*   Spotify.lnk*               googleplaystore.csv
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ cd BDCOE TRAINING
+bash: cd: too many arguments
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ cdBDCOETRAINING
+bash: cdBDCOETRAINING: command not found
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ cd BDCOETRAINING\
+> cd BDCOETRAINING
+bash: cd: too many arguments
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ cd BDCOE TRAINING
+bash: cd: too many arguments
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ ls
+ AKGEC/             Dev-C++.lnk*    'Mini voting system.pptx'   Telegram.lnk*         project/
+'BDCOE TRAINING'/  'GDSC PI'/        PERSONAL/                  desktop.ini
+ DSA/              'Git Bash.lnk'*   Spotify.lnk*               googleplaystore.csv
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop
+$ cd 'BDCOE TRAINING'
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ ls
+'BDCOE DAY 2.txt'  'BIG DATA DAY 3.txt'  'GIT AND GIT HUB.txt'   git-cheat-sheet-education.pdf
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/BDCOE TRAINING/.git/
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git clone ^[[200~https://github.com/atishayjain2003/ATISHAY-21153089.git~
+Cloning into 'ATISHAY-21153089.git~'...
+fatal: protocol '?[200~https' is not supported
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ ^C
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git clone https://github.com/atishayjain2003/ATISHAY-21153089.git
+Cloning into 'ATISHAY-21153089'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Receiving objects: 100% (3/3), done.
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ATISHAY-21153089/
+        git-cheat-sheet-education.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ATISHAY-21153089/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git branch atishay
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (master)
+$ git checkout atishay
+Switched to branch 'atishay'
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git add .
+warning: adding embedded git repository: ATISHAY-21153089
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> ATISHAY-21153089
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached ATISHAY-21153089
+hint:
+hint: See "git help submodule" for more information.
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git add "GIT AND GIT HUB"
+fatal: pathspec 'GIT AND GIT HUB' did not match any files
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git add "BDCOE DAY 2"
+fatal: pathspec 'BDCOE DAY 2' did not match any files
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git add "BDCOE DAY 2.txt"
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git commit -m "Atishay committed"
+[atishay 14a0259] Atishay committed
+ 1 file changed, 1 insertion(+)
+ create mode 160000 ATISHAY-21153089
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git push origin atishay
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 601 bytes | 601.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'atishay' on GitHub by visiting:
+remote:      https://github.com/atishayjain2003/FIRST/pull/new/atishay
+remote:
+To https://github.com/atishayjain2003/FIRST.git
+ * [new branch]      atishay -> atishay
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git status
+On branch atishay
+nothing to commit, working tree clean
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git log
+commit 14a0259d43d5653eca14f76cfda4400bea8c0351 (HEAD -> atishay, origin/atishay)
+Author: Atishay Jain <atishayjain2003@gmail.com>
+Date:   Fri Sep 30 05:52:04 2022 +0530
+
+    Atishay committed
+
+commit 5e2b255ebb39880541fb8145cd6625e2099ebd48 (master)
+Author: Atishay Jain <atishayjain2003@gmail.com>
+Date:   Thu Sep 29 22:39:15 2022 +0530
+
+    Committed
+
+commit 03a4144135d8115ba0420b555ea567b4a2c3b47c (origin/master)
+Author: Atishay Jain <atishayjain2003@gmail.com>
+Date:   Thu Sep 29 16:05:22 2022 +0530
+
+    done
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$ git status
+On branch atishay
+nothing to commit, working tree clean
+
+DELL@DESKTOP-NP5C70D MINGW64 ~/desktop/BDCOE TRAINING (atishay)
+$
